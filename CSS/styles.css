@@ -1,0 +1,176 @@
+/* -------------------------TAG SELECTORS and PSEUDO CLASSES-------------------------*/
+body {
+  background-color: white;
+  text-align: center;
+  margin:0;
+  font-family: 'Merriweather', serif;
+  /* width: 600px; */
+  /* height: 600px; */
+  /* margin: 0; */
+}
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  position: relative;
+  top: 50px;
+  line-height: 2;
+}
+h2 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+h3 {
+  font-size: 1.5625rem;
+  font-family: 'Montserrat', sans-serif;
+}
+span {
+  text-decoration: underline;
+  color: #0F4C75;
+}
+hr {
+  border-color: #161E54;
+  border-style: none none dotted none;
+  border-bottom-width: 7px;
+  width: 5%;
+}
+p {
+  font-size: 125%;
+  color: #40514E
+}
+span:hover{
+  color: white;
+}
+
+/* ------------------------- CLASS SELECTORS----------------------*/
+
+.bottomcloud{
+  position: absolute;
+  left: 12rem;
+  width: 12.5rem;
+}
+.topcloud{
+right:15rem;
+position: absolute;
+top: 12.5rem;
+}
+.mountain{
+width: 50%;
+height: 50%;
+}
+.mainC{
+  padding-top: 6.25rem;
+  background-color: #EAF6F6;
+}
+.otherimages1{
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.otherimages2{
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.otherimages3{
+    width: 10%;
+    height: 10%;
+}
+.intro{
+  color: #0F4C75
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.bottom-container{
+  background-color: #5C7AEA;
+  height: 200px;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-right: 100px;
+}
+.last-para{
+  font-size: 1.5625rem;
+  color: white;
+  margin: 80px auto 80px auto;
+  margin-left: 250px;
+}
+.footer-link {
+font-size: 1.5625rem;
+margin-left: 120px;
+text-decoration: none;
+}
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+.lastimage{
+  width:  10%;
+  height: 70%;
+  float: right;
+}
+.button {
+  background-color: #4E9F3D;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5625rem;
+  margin-top: 30px;
+  height: 80px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.contac-me{
+  font-size: 125%;
+}
+/* #ProfilePhoto{
+  width: 10.625rem;
+  height: 13.75rem;
+  position: absolute;
+  top: 7.5rem;
+  left: 42.5rem;
+} */
+
+/* .topC {
+  /* width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: solid 10px;
+.topC {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 400px;
+  left: 408px;
+}
+/* .middleC {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 208px;
+  /* margin-left: 260px;
+  border: solid 20px;
+} */
+/* .bottomC {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top:0
+  /* margin-left: 500px;
+  border: solid 10px;
+}
+*/
